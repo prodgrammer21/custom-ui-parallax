@@ -1,0 +1,35 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.main {
+  /* First Option */
+  position: relative;
+
+  /* Second Option */
+  /* display: grid;
+  grid-auto-rows: 100vh; */
+}
+
+/* Section */
+.main .section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.main #section1 {
+  background-image: url('../img/bg1.jpg');
+}
+.main #section2 {
+  background-image: url('../img/bg2.jpg');
+}
+.main #section3 {
+  background-image: url('../img/bg3.jpg');
+  background-attachment: fixed;
+  height: 400px;
+}
+.main #section4 {
+  background-image: url('../img/bg4.jpg');
+}
